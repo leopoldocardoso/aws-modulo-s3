@@ -4,12 +4,13 @@ variable "bucket-name" {
   default = "iac-s3-leopoldo"
 }
 
-variable "tags" {
+variable "tag" {
   description = "Tags dos recursos"
   type        = map(any)
   default = {
     Owner     = "Leopoldo P. Cardoso"
       ManagedBy = "Terraform"
       Objective = "Estudos Terraform"
+      Name = "iac-s3-leopoldo"
   }
 }
