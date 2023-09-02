@@ -1,7 +1,7 @@
 variable "bucket-name" {
   description = "Nome do Bucket"
-  type = string
-  default = "iac-s3-leopoldo"
+  type        = string
+  default     = "iac-s3-leopoldo"
 }
 
 variable "tag" {
@@ -9,8 +9,8 @@ variable "tag" {
   type        = map(any)
   default = {
     Owner     = "Leopoldo P. Cardoso"
-      ManagedBy = "Terraform"
-      Objective = "Estudos Terraform"
-      Name = "iac-s3-leopoldo"
+    ManagedBy = "Terraform"
+    Objective = "Estudos Terraform"
+    Name      = "iac-s3-leopoldo"
   }
 }
