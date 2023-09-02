@@ -9,13 +9,13 @@ terraform {
 
 provider "aws" {
   region = var.region
-  default_tags {
-    tags = {
-      Owner     = "Leopoldo P. Cardoso"
-      ManagedBy = "Terraform"
-      Objective = "Estudos Terraform"
-    }
-  }
+  # default_tags {
+  #   tags = {
+  #     Owner     = "Leopoldo P. Cardoso"
+  #     ManagedBy = "Terraform"
+  #     Objective = "Estudos Terraform"
+  #   }
+  # }
 }
 
 module "object" {
