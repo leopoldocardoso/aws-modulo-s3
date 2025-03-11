@@ -1,7 +1,7 @@
 variable "bucket-name" {
   description = "Nome do Bucket"
   type        = string
-  default     = "iac-s3-leopoldo"
+  default     = "iacterraformtfstate"
 }
 
 variable "tag" {
@@ -11,6 +11,6 @@ variable "tag" {
     Owner     = "Leopoldo P. Cardoso"
     ManagedBy = "Terraform"
     Objective = "Estudos Terraform"
-    Name      = "iac-s3-leopoldo"
+    Name      = "iacterraformtfstate"
   }
 }
